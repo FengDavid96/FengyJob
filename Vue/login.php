@@ -1,9 +1,11 @@
 <?php
+
 session_start();
 require("../Modele/connexion.php");
-include("../fonction/function_uninjection_sql.php");
-include("../Controleur/controleur_login.php");
+include("../Fonctions/function_uninjection_sql.php");
+include("../Controleur/login.php");
 include("../Modele/cookies.php");
+
 ?>
 
 <html>
@@ -16,14 +18,14 @@ include("../Modele/cookies.php");
 
 </head>
 <header>
-            <img style="position: relative; height: 100px; left: 85vh;; " class="logoicon" src="../icon/Logo.png">
+            <img style="position: relative; height: 200px; left: 85vh;; " class="logoicon" src="../Images/Logo.png">
 
 </header>
 
 <body>
     <div class="form" align="center">
         <br>
-        <h2 class="main-text">Se Connecter</h2>
+        <h2 class="main-text">Sortez de l'ordinaire professionnellement !</h2>
         <br>
         <br>
         <br>
@@ -38,9 +40,6 @@ include("../Modele/cookies.php");
                     <td><br><input class="input-box" type="password" name="password" placeholder="  Mot de passe" value=<?php //echo $_COOKIE["password"]; ?>></td>
                 </tr>
                 <tr>
-                    <!--<td id="checkbox-text"><br><input id="checkbox" type="checkbox" class="checkbox" name="checkbox"><label for="checkbox" class="checkbox checked">
-                    <span class="rounded"> </span> Rester connecté(e)</label></td>
-                    <td><br><input class="button" type="submit" name="confirm-button"></td>-->
                     <label for="checkbox" class="checkbox checked">
                         <input type="checkbox" id="checkbox" class="checkbox" name="checkbox">
                         <span class="rounded"></span>

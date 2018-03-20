@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $dbname = "bdd_tipso";
+    $dbname = "fengyjobbdd";
     $host = 'localhost';
     $user = 'root';
     $passwd = '';
@@ -11,7 +11,7 @@ try{
 catch(PDOException $e)
 {
     try {
-        $dbname = "bdd_tipso";
+        $dbname = "fengyjobbdd";
         $host = 'localhost';
         $user = 'root';
         $passwd = 'root';

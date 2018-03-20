@@ -74,7 +74,7 @@ input.input-box{
 header{
     height:10%;
     width: 100%;
-   background-color: #627890;
+    background-color: #627890;
 
 }
 
@@ -182,7 +182,7 @@ input:checked + .rounded:after{
 
 
 .span_flex{
-     display: block;
+    display: block;
     overflow: hidden;
     padding: 0 5px 0 0;
 }
@@ -194,8 +194,8 @@ input:checked + .rounded:after{
     max-height: 100px;
     min-height: 30px;
     position: absolute;
-      width: 20%;
-     height: 10%;
+    width: 20%;
+    height: 10%;
     margin-top: -10px;
     left: 44%;
     margin-left: 0px;
